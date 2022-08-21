@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/MCW/Documents/buildsystems/build/gtest/test_mymath[1]_tests.cmake")
+  include("/mnt/c/Users/MCW/Documents/buildsystems/build/gtest/test_mymath[1]_tests.cmake")
+else()
+  add_test(test_mymath_NOT_BUILT test_mymath_NOT_BUILT)
+endif()

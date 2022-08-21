@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mytest.dir/test.cpp.o -o mytest  ../libmymath.a 
